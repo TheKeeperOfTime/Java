@@ -70,7 +70,7 @@ Here's how the structure of your project will look.
 	    		-> TODO: Include examples of shorthand operators.
 	    	_03_demo_story.java
 	    		-> TODO: Go to the following url -> https://repl.it/DhOp/1. Copy and paste the code into this file and run it. 
-	    		-> TODO: Read and analyze the code and make sure you understand it. 
+	    		-> TODO: Read and analyze the code and make sure you understand it.  the double
 	    	_04_challenge_story.java
 	    		-> TODO: Create a story using math operators. 
 	    		 // CHALLENGE: Make your own expression story using various number types. Also try to use each math operator (+,-,/,*,%)
@@ -257,4 +257,3 @@ Here's how the structure of your project will look.
 
 
 https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
-
