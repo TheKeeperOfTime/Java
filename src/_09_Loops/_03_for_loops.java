@@ -33,9 +33,6 @@ public class _03_for_loops {
 			//TODO Practice all of this!
 			//This is how you count the characters in a string
 		
-			Scanner inputInfo = new Scanner(System.in);
-			System.out.println("Type a sentence");
-			
 			
 		
 		
