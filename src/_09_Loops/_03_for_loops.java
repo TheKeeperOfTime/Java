@@ -37,21 +37,26 @@ public class _03_for_loops {
 		
 		
 		  	
-		  	String character = "Spencer Laurien Haggard";
+		  	String character = "Sally sells seashells";
 		  	int numChar = 0;
 		  	for (int i = 0; i < character.length(); i++){
-		  		if (character.charAt(i) != 'e') {
+		  		if (character.charAt(i) != 's') {
 		  			continue;
 		  		} else {
 		  			numChar++;
 		  		}
 		  	 }	
 		  	
-		  	System.out.println("Number of E's: " + numChar);
+		  	System.out.println("Number of s's: " + numChar);
 		  	
 		  	
 		  	
-		  	
+		  //This is how you print a whole entire array
+			
+			String[] lang = {"Html", "CSS", "Java"}; 
+				for(int i = 0; i < lang.length; i++){
+					System.out.println(lang[i]);
+				}
 		
 
 	}
