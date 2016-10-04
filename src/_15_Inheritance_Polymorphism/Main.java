@@ -1,5 +1,7 @@
 package _15_Inheritance_Polymorphism;
 
+import _18_Encapsulation.Patriots;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -43,6 +45,10 @@ public class Main {
 		
 		
 		
+		Patriots dick = new Patriots();
+		
+		dick.name = "Dick";
+		dick.isACheater = true;
 		
 		
 		

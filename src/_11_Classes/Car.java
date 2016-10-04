@@ -3,7 +3,7 @@ package _11_Classes;
 public class Car {
 
 	
-	
+
 	String make;
 	String model;
 	String colour;
@@ -21,7 +21,7 @@ public class Car {
 	boolean isFast;
 	boolean isPopular;
 	boolean leatherSeats;
-	boolean isSafe;
+	boolean isSafe;	
 	
 	
 	

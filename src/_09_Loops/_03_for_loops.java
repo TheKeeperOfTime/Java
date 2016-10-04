@@ -37,7 +37,7 @@ public class _03_for_loops {
 		
 		
 		  	
-		  	String character = "Sally sells seashells";
+		  	String character = ("Sally sells seashells").toLowerCase();
 		  	int numChar = 0;
 		  	for (int i = 0; i < character.length(); i++){
 		  		if (character.charAt(i) != 's') {
@@ -49,15 +49,19 @@ public class _03_for_loops {
 		  	
 		  	System.out.println("Number of s's: " + numChar);
 		  	
+		  	String count = "Fuck you, twat crab";
+		  	int numChars = 0;
+		  	for(int i = 0; i < count.length(); i++){
+		  		if (count.charAt(i) != 'a'){
+		  			continue;
+		  		} else {
+		  			numChars++;
+		  		}
+		  	}
+		  	
+		  	System.out.println("Number of a's: " + numChars);
 		  	
 		  	
-		  //This is how you print a whole entire array
-			
-			String[] lang = {"Html", "CSS", "Java"}; 
-				for(int i = 0; i < lang.length; i++){
-					System.out.println(lang[i]);
-				}
-		
 
 	}
 

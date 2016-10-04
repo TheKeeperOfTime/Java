@@ -1,6 +1,6 @@
 package _09_Loops;
 
-public class _04_for_reach {
+public class _04_for_each {
 
 	public static void main(String[] args) {
 		
@@ -13,12 +13,11 @@ public class _04_for_reach {
 		}
 		
 		
-		String[] bands = {"The New Mastersounds", "A Tribe Called Quest", "Frank Turner"};
-			
-			for(String band : bands){
-				System.out.println(band);
-			}
-			
+		String[] theBeatles = {"Paul", "George", "John", "Ringo!"};
+		
+		for(String beatles : theBeatles){
+			System.out.println(beatles);
+		}			
 			String s = "Hello";
 			for(char ch : s.toCharArray()){
 				System.out.println(ch);
