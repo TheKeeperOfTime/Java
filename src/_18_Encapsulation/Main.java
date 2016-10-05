@@ -4,6 +4,7 @@ package _18_Encapsulation;
 //You can only use protected classes in the same packages 
 //But you can use public classes in anything if you import it 
 
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -15,7 +16,7 @@ public class Main {
 		
 		Patriots dick = new Patriots();
 		
-		dick.name = "Dick-Ass";
+		dick.name = "Dick";
 		dick.age = 30;
 		dick.isACheater = true;
 		
